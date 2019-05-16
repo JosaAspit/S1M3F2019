@@ -39,8 +39,13 @@ namespace ConsoleWriter
 
         static Dictionary<string, string[]> GetLettersFromFile()
         {
+            //!!!!!CHANGE THIS PATH!!!!!
             string path = @"C:\Users\josa\source\repos\S1M3F2019_Demos\ConsoleWriter\letters.jpg";
+
+            //Letters in the same order as the letters in letters.jpg
             string alphabet = "abcdefghijklmnopqrstuvwxyz ";
+
+            //Constants for letter height and width, change if letters.jpg changes
             int letterWidth = 5;
             int letterHeight = 5;
 
