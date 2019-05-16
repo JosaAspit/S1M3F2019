@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListendeLists", "ListendeLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModneMetoder", "ModneMetoder\ModneMetoder.csproj", "{7EAFF06E-6144-454D-B11A-19FADE705E04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWriter", "ConsoleWriter\ConsoleWriter.csproj", "{7703B2EE-E363-451E-8608-A31DD162166B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7EAFF06E-6144-454D-B11A-19FADE705E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EAFF06E-6144-454D-B11A-19FADE705E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EAFF06E-6144-454D-B11A-19FADE705E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7703B2EE-E363-451E-8608-A31DD162166B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7703B2EE-E363-451E-8608-A31DD162166B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7703B2EE-E363-451E-8608-A31DD162166B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7703B2EE-E363-451E-8608-A31DD162166B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
