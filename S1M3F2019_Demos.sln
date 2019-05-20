@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopLogic", "LoopLogic\Loop
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListendeLists", "ListendeLists\ListendeLists.csproj", "{C9980FC0-3052-4AE1-A2BF-9D6893C047D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModneMetoder", "ModneMetoder\ModneMetoder.csproj", "{7EAFF06E-6144-454D-B11A-19FADE705E04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModneMetoder", "ModneMetoder\ModneMetoder.csproj", "{7EAFF06E-6144-454D-B11A-19FADE705E04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWriter", "ConsoleWriter\ConsoleWriter.csproj", "{7703B2EE-E363-451E-8608-A31DD162166B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleWriter", "ConsoleWriter\ConsoleWriter.csproj", "{7703B2EE-E363-451E-8608-A31DD162166B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AritmetikDemo", "AritmetikDemo\AritmetikDemo.csproj", "{A17596BA-47D6-49CC-BE49-3D5874FB7704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Demo", "OOP_Demo\OOP_Demo.csproj", "{69A63B26-5BF7-4A91-A6F6-FEA6899DBFEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{7703B2EE-E363-451E-8608-A31DD162166B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7703B2EE-E363-451E-8608-A31DD162166B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7703B2EE-E363-451E-8608-A31DD162166B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17596BA-47D6-49CC-BE49-3D5874FB7704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17596BA-47D6-49CC-BE49-3D5874FB7704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17596BA-47D6-49CC-BE49-3D5874FB7704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17596BA-47D6-49CC-BE49-3D5874FB7704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A63B26-5BF7-4A91-A6F6-FEA6899DBFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A63B26-5BF7-4A91-A6F6-FEA6899DBFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A63B26-5BF7-4A91-A6F6-FEA6899DBFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A63B26-5BF7-4A91-A6F6-FEA6899DBFEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

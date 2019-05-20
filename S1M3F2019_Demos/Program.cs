@@ -7,28 +7,21 @@ namespace S1M3F2019_Demos
 
         static void Main(string[] args)
         {
-            Console.WriteLine(MyAdder(20, 5));
+            string[] input = new string[20];
 
-            Console.WriteLine(MultiplyMyName(5,"Jens-Ole"));
-
-            Console.ReadLine();
-        }
-        //access modifier - keyword (optional) - returtype - method name - parameters - method body
-        static int MyAdder(int numOne, int numTwo)
-        {
-            return numOne + numTwo;
-        }
-
-        static string MultiplyMyName(int times, string name)
-        {
-            string n = "";
-
-            for (int i = 0; i < times; i++)
+            for (int i = 0; i < input.Length; i++)
             {
-                n += name;
+                input[i] = i.ToString();
             }
 
-            return n;
+            Console.WriteLine(ConcatenateAll(input));
+
+            Console.ReadKey();
+        }
+
+        public static string ConcatenateAll(string[] input)
+        {
+            return string.Join("ABC ", input);
         }
     }
 }
