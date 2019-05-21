@@ -6,7 +6,7 @@ namespace S1M3F2019_Demos
 {
     class MethodDemo
     {
-        static void Mayn(string[] args)
+        public static void Mayn()
         {
             Console.WriteLine(MyAdder(20, 5));
 
