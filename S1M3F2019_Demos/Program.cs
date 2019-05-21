@@ -6,7 +6,9 @@ namespace S1M3F2019_Demos
     {
         static void Main(string[] args)
         {
-            StringJoinDemo.Mayn();
+            SearchDemo.Search();
+
+            Console.ReadKey();
         }
     }
 }
