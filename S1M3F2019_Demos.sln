@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleWriter", "ConsoleWri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AritmetikDemo", "AritmetikDemo\AritmetikDemo.csproj", "{A17596BA-47D6-49CC-BE49-3D5874FB7704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Demo", "OOP_Demo\OOP_Demo.csproj", "{69A63B26-5BF7-4A91-A6F6-FEA6899DBFEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Demo", "OOP_Demo\OOP_Demo.csproj", "{69A63B26-5BF7-4A91-A6F6-FEA6899DBFEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassyClasses", "ClassyClasses\ClassyClasses.csproj", "{207A9F99-51F1-46E3-AC90-05D43C26070D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{69A63B26-5BF7-4A91-A6F6-FEA6899DBFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69A63B26-5BF7-4A91-A6F6-FEA6899DBFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69A63B26-5BF7-4A91-A6F6-FEA6899DBFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207A9F99-51F1-46E3-AC90-05D43C26070D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207A9F99-51F1-46E3-AC90-05D43C26070D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207A9F99-51F1-46E3-AC90-05D43C26070D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207A9F99-51F1-46E3-AC90-05D43C26070D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
