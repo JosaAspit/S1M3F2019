@@ -20,6 +20,11 @@ namespace ClassyClasses
             people.Add(person2);
             people.Add(person3);
 
+            person1.Age = 20;
+
+            person2.Age = -30;
+
+
             foreach (var person in people)
             {
                 Console.WriteLine(person.GetSummary());

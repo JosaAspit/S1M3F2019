@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AritmetikDemo", "AritmetikD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Demo", "OOP_Demo\OOP_Demo.csproj", "{69A63B26-5BF7-4A91-A6F6-FEA6899DBFEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassyClasses", "ClassyClasses\ClassyClasses.csproj", "{207A9F99-51F1-46E3-AC90-05D43C26070D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassyClasses", "ClassyClasses\ClassyClasses.csproj", "{207A9F99-51F1-46E3-AC90-05D43C26070D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamReaderDemo", "StreamReaderDemo\StreamReaderDemo.csproj", "{0BA91F65-0AD3-47E0-A259-64E9388A298A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{207A9F99-51F1-46E3-AC90-05D43C26070D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{207A9F99-51F1-46E3-AC90-05D43C26070D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{207A9F99-51F1-46E3-AC90-05D43C26070D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA91F65-0AD3-47E0-A259-64E9388A298A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA91F65-0AD3-47E0-A259-64E9388A298A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA91F65-0AD3-47E0-A259-64E9388A298A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA91F65-0AD3-47E0-A259-64E9388A298A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

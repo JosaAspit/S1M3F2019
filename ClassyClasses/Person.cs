@@ -6,13 +6,26 @@ namespace ClassyClasses
 {
     public class Person
     {
-        //Instance members
+        //Fields
         public string name;
         public string occupation;
         public DateTime birthday;
 
+        //properties - Indkapsling/Encapsulation
+        private int age;
+
+        public int Age
+        {
+            get { return age; }
+            set {
+                age = value;
+            }
+        }
+
+
         public Person(string name, string occupation, DateTime birthday)
         {
+            int derp = 0;
             this.name = name;
             this.occupation = occupation;
             this.birthday = birthday;
