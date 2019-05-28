@@ -128,7 +128,7 @@ namespace ConsoleWriter
                         xPos++;
                     }
 
-                    output.Add(@letter, letterLines);
+                    output.Add(letter, letterLines);
                 }
             }
 
