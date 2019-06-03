@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boxdemo", "Boxdemo\Boxdemo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesIntro", "RazorPagesIntro\RazorPagesIntro.csproj", "{D2251E6C-1A83-443B-A344-122053F24531}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleDemo", "PeopleDemo\PeopleDemo.csproj", "{81F805DD-E4BC-4D47-B19D-B7C901F9EDB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{D2251E6C-1A83-443B-A344-122053F24531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2251E6C-1A83-443B-A344-122053F24531}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2251E6C-1A83-443B-A344-122053F24531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F805DD-E4BC-4D47-B19D-B7C901F9EDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F805DD-E4BC-4D47-B19D-B7C901F9EDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F805DD-E4BC-4D47-B19D-B7C901F9EDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F805DD-E4BC-4D47-B19D-B7C901F9EDB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

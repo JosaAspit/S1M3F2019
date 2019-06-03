@@ -1,0 +1,25 @@
+﻿@page
+
+@using PeopleDemo.Logic
+@using PeopleDemo.Models
+
+@{
+    PersonRepository repo = new PersonRepository();
+
+    List<Person> people = repo.GetAllPeople();
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    @foreach (var item in people)
+    {
+        <p>
+            @item.Name på @item.Age
+        </p>
+    }
+</body>
+</html>

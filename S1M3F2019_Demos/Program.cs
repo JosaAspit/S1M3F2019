@@ -6,11 +6,13 @@ namespace S1M3F2019_Demos
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[5];
-            Array.Resize(ref arr, arr.Length + 1);
+            Random rnd = new Random();
 
-            Console.WriteLine(arr.Length);
-            Console.ReadKey();
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(rnd.Next(1, 7));
+            }
         }
     }
 }

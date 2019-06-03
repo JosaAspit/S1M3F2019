@@ -3,12 +3,15 @@
 @using RazorPagesIntro
 
 @{
+    Cat c = new Cat();
+    DateTime dateTime = DateTime.Now;
+    Random rnd = new Random();
+
     string name = "Jens-Ole";
     int age = 29;
 
     string message = "Hej med jer";
 
-    Cat c = new Cat();
 
     c.color = "green";
 }
@@ -28,7 +31,13 @@
                 @name på @age siger: @message
             </p>
             <p>
+                Jeg har @rnd.Next(1,7) hår på hovedet
+            </p>
+            <p>
                 BeskedId : @i
+            </p>
+            <p>
+                Timestamp : @dateTime.ToLongDateString();
             </p>
         </div>
     }
