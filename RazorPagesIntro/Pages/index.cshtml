@@ -1,0 +1,36 @@
+﻿@page
+
+@using RazorPagesIntro
+
+@{
+    string name = "Jens-Ole";
+    int age = 29;
+
+    string message = "Hej med jer";
+
+    Cat c = new Cat();
+
+    c.color = "green";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h2>the cat is @c.color</h2>
+
+    @for (int i = 0; i < 3; i++)
+    {
+        <div style="background-color:lightgrey; margin-bottom:10px;">
+            <p>
+                @name på @age siger: @message
+            </p>
+            <p>
+                BeskedId : @i
+            </p>
+        </div>
+    }
+</body>
+</html>

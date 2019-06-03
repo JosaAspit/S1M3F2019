@@ -8,16 +8,44 @@ namespace S1M3F2019_Demos
     {
         public static void Loop()
         {
-            Console.WriteLine("Demo of fancy for loops");
-            int padding = 5;
-            int length = 10;
-            for (int i = 1; i <= length; i++)
+            for (int j = 1; j <= 25; j++)
             {
-                for (int j = 1; j <= length; j++)
+                for (int i = 1; i <= 50; i++)
                 {
-                    if ((i+j > length) && (i-j > 0))
+                    if (j + i > 25)
                     {
-                        Console.Write($"{i},{j}".PadRight(padding));
+                        Console.Write("#");
+                    } else
+                    {
+                        Console.Write(" ");
+                    }
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("Demo of fancy for loops");
+            int padding = 2;
+            int width = 7;
+            int height = 4;
+            int count = 1;
+            for (int j = 1; j <= height; j++)
+            {
+                for (int i = 1; i <= width; i++)
+                {
+                    var round = Math.Round((decimal)width / 2);
+
+                    if (
+                        j + i > round 
+                        &&
+                        width + j-1 >= (width/2)+i
+                        && 
+                        (i+j) % 2 == 1
+                        )
+                    {
+                        Console.Write($"{count}".PadRight(padding));
+                        count++;
                     }
                     else
                     {

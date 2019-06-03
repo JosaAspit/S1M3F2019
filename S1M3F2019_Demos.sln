@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassyClasses", "ClassyClas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamReaderDemo", "StreamReaderDemo\StreamReaderDemo.csproj", "{0BA91F65-0AD3-47E0-A259-64E9388A298A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxdemo", "Boxdemo\Boxdemo.csproj", "{728C865E-9EC6-4641-90E7-AF54CC702B59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boxdemo", "Boxdemo\Boxdemo.csproj", "{728C865E-9EC6-4641-90E7-AF54CC702B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesIntro", "RazorPagesIntro\RazorPagesIntro.csproj", "{D2251E6C-1A83-443B-A344-122053F24531}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{728C865E-9EC6-4641-90E7-AF54CC702B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{728C865E-9EC6-4641-90E7-AF54CC702B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{728C865E-9EC6-4641-90E7-AF54CC702B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2251E6C-1A83-443B-A344-122053F24531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2251E6C-1A83-443B-A344-122053F24531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2251E6C-1A83-443B-A344-122053F24531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2251E6C-1A83-443B-A344-122053F24531}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

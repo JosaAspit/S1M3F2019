@@ -6,8 +6,10 @@ namespace S1M3F2019_Demos
     {
         static void Main(string[] args)
         {
-            LoopDemo.Loop();
+            int[] arr = new int[5];
+            Array.Resize(ref arr, arr.Length + 1);
 
+            Console.WriteLine(arr.Length);
             Console.ReadKey();
         }
     }
