@@ -6,13 +6,9 @@ namespace S1M3F2019_Demos
     {
         static void Main(string[] args)
         {
-            Random rnd = new Random();
+            ArrayDemos.Foo();
 
-
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine(rnd.Next(1, 7));
-            }
+            Console.ReadKey();
         }
     }
 }
