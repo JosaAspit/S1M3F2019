@@ -1,4 +1,5 @@
 ﻿using System;
+using ExtMethods;
 
 namespace S1M3F2019_Demos
 {
@@ -6,7 +7,8 @@ namespace S1M3F2019_Demos
     {
         static void Main(string[] args)
         {
-            ArrayDemos.Foo();
+            DelegateDemo.Foo();
+
 
             Console.ReadKey();
         }
